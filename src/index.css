@@ -1,0 +1,343 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  background-color: #121212;
+}
+
+#root,
+.app-container,
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.custom-table-styles>* tr:nth-child(even) td {
+  background-color: #1f1f1f !important;
+}
+
+.order-table-styles>* tr:nth-child(even) td {
+  background-color: #525252 !important;
+}
+
+.order-table-styles>* tr:nth-child(odd) td {
+  background-color: #1F1F1F !important;
+}
+
+.order-table tr td:last-child {
+  width: 20px !important;
+}
+
+/* .custom-table-styles tr:hover {
+
+    background-color: rgba(0, 0, 0, 0.04);
+  } */
+.custom-table-styles th {
+  /* background-color: #eaeef1 !important; */
+}
+
+/* .MuiTableCell-root{
+    border-bottom: unset !important;
+    color: white !important;
+  } */
+.NabBarItems {
+  text-decoration: none;
+  color: white;
+}
+
+.font-size-34 {
+  font-size: 34px !important;
+  font-family: "Questrial", sans-serif !important;
+}
+
+.font-size-21 {
+  font-size: 21px !important;
+}
+
+.font-size-12 {
+  font-size: 12px !important;
+}
+
+.Primary-btn {
+  background: #6f9ceb !important;
+  border-radius: 0px !important;
+  width: 168px !important;
+}
+
+.margin-20 {
+  margin: 20px !important;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.MuiFormControl-marginNormal {
+  margin-bottom: 3px !important;
+}
+
+.loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+div.MuiToolbar-root {
+  order: 1;
+}
+
+div.MuiToolbar-root+div {
+  order: 3;
+  position: unset !important;
+}
+
+table.MuiTable-root {
+  order: 2;
+}
+
+.map-container {
+  min-height: 100vh;
+}
+
+
+.radio-checkbox[type=checkbox]:not(old) {
+  width: 14px;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  opacity: 0;
+}
+
+.radio-checkbox[type=checkbox]:not(old)+label {
+  display: inline-block;
+  /* margin-left  : -2em; */
+  line-height: 1.5em;
+}
+
+.radio-checkbox-label, .radio-checkbox-label > svg {
+  color: #6F9CEB !important;
+  cursor: pointer;
+}
+
+/*
+.radio-checkbox[type=checkbox]:not(old)+label>span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid#ADADAD;
+  border-radius: 50%;
+  background: transparent;
+  vertical-align: bottom;
+  margin: 1.2px;
+  transition: 0.5s;
+}
+
+.radio-checkbox[type=checkbox]:not(old):checked+label>span>span {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #6F9CEB;
+  border-radius: 50%;
+  background: #6F9CEB;
+  margin: 1px;
+  transition: 0.5s;
+
+}
+
+.radio-checkbox[type=checkbox]:not(old):checked+label>span {
+  border: 1px solid #6F9CEB;
+}
+
+.radio-checkbox[type=checkbox]:not(old):hover+label>span>span {
+  opacity: 1;
+  background-color: #ADADAD;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid#ADADAD;
+  border-radius: 50%;
+  margin: 1px;
+}
+
+.radio-checkbox[type=checkbox]:not(old):checked:hover+label>span>span {
+  background: #6F9CEB;
+  border: 1px solid #6F9CEB;
+  margin: 1px;
+  transition: 0.5s;
+}*/
+
+.ball {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #6F9CEB;
+  border-radius: 50%;
+  background: #6F9CEB !important;
+  cursor: pointer;
+
+}
+
+.ball-open {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #6F9CEB;
+  border-radius: 50%;
+  position: relative;
+  z-index: 3;
+  cursor: pointer;
+  /* background: #6F9CEB; */
+}
+
+.red-ball {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #F78D94;
+  border-radius: 50%;
+  background-color: #F78D94 !important;
+  cursor: pointer;
+}
+
+.ball-open:hover {
+  background: #EBEBEB !important;
+  border: 1px solid #EBEBEB !important;
+}
+
+.ball-warning {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #ffb74d !important;
+  border: 1px solid #da942c !important;
+}
+
+.RSPBprogressBar {
+  margin: 30px;
+}
+
+.hide-scrollbar::-webkit-scrollbar,
+.activetours::-webkit-scrollbar {
+  display: none;
+}
+
+.order-table .MuiPaper-elevation2>div:nth-child(2)>div>div::-webkit-scrollbar {
+  display: none;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.MuiTooltip-tooltip {
+  background: unset !important;
+}
+
+.MuiTooltip-arrow {
+  width: unset !important;
+  color: unset !important;
+}
+
+.hovericon:hover {
+  color: #6F9CEB !important;
+}
+
+.disabled-btn {
+  cursor: not-allowed !important;
+}
+
+.owl-prev,
+.owl-next {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  color: white !important;
+  transform: translateY(-50%);
+  display: block !important;
+  border: 0px solid black;
+}
+
+.owl-carousel {
+  position: relative !important;
+  z-index: 0 !important;
+}
+
+.owl-prev {
+  left: -25px;
+}
+
+.owl-next {
+  right: -25px;
+}
+
+.owl-prev i,
+.owl-next i {
+  transform: scale(2, 5);
+  color: #ccc;
+}
+
+.owl-prev span,
+.owl-next span {
+  font-size: 25px;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+  background: unset !important;
+}
